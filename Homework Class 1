@@ -1,0 +1,53 @@
+name= input("Your Name: ")
+age = input ("Your Age: ")
+dept= input("Department? : ")
+exp= input("Enter years of experience: ")
+print ((name), (age), (dept), (exp))
+print ("Name:", (name), type(name))
+print ("Age:",(age), type(age))
+print ("Dept:",(dept), type(dept))
+print ("Exp:",(exp), type(exp))
+##Employee information
+number_1 = int(input("Enter Number: "))
+number_2 = int(input("Enter Number: "))
+add= number_1 + number_2
+sub= number_1 - number_2
+multi= number_1 * number_2
+div= number_1 / number_2
+fl_div = number_1 // number_2
+mod = number_1 % number_2
+exp = number_1 ** number_2
+## Arthimetic operator
+print (add)
+print (sub)
+print (multi)
+print (div)
+print (fl_div)
+print (mod)
+print (exp)
+#Pizza Party Distribution
+pizza_no= int(input("No of Pizza Slices: "))
+no_friend = int(input("No. of friends? "))
+friend_slice= pizza_no//no_friend
+pizza_left= pizza_no % no_friend 
+pizza_sq = pizza_no**2
+print(friend_slice)
+print(pizza_left)
+print(pizza_sq)
+
+##Data Types, Keywords, and Identifiers
+name = "Raza"
+print(type(name), (name))
+age= 35
+print(type(age), (age))
+height= 5.10
+print(type(height), (height))
+is_employed = True
+print(type(is_employed), (is_employed))
+##Power and Mathematics Program
+ur_no= int(input("Number: "))
+print("Square",(ur_no**2))
+print("Cube",(ur_no**3))
+print("Quotient",(ur_no//5))
+print("Remainder",(ur_no%5))
+print("Result",((ur_no+10)*2))
