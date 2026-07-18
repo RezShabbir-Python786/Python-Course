@@ -1,0 +1,19 @@
+word = input ('Enter a word: ')
+counter= 0 ##coutner has to be defined before the loop
+for letter in word:
+ if letter in ['a','e','i','o','u']:
+  print('Vowel = ', letter)
+  counter +=1 ## Increase inside the loop
+print ("Total Vowels =" , counter)  ##print outside the loop
+
+
+
+start= int(input('Enter Start: '))
+end= int(input('Enter End: '))
+step= int(input('Enter Step: '))
+
+for i in range(start,end,step):
+  #print(start, end, step)
+    print(i)
+print(start, end, step)
+print ("Final Step= ", i)
