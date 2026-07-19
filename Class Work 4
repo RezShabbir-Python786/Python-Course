@@ -1,0 +1,14 @@
+user_name= input("Enter your user name: ") #first time user name creation
+user_password= input("Enter your password: ") #first time user password creation
+attempts=0  #counter for no. of attempts
+password = "" # default placeholder for pw
+
+while password != user_password: #compares default pasword "" to user entered password
+  password = input("Enter your password ")
+  attempts+=1
+  if attempts==3 and password != user_password:
+    print("Too many attempts- please try again later")
+    break # break the loop block
+
+if password== user_password:
+  print ("Login successful")
