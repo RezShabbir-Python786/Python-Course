@@ -12,3 +12,19 @@ while password != user_password: #compares default pasword "" to user entered pa
 
 if password== user_password:
   print ("Login successful")
+
+
+## for loop
+list= ["Alice","Bob","Dave","John"]
+search= input ("Enter search name: ")
+
+found = False
+
+for names in list:
+  if names == search:
+    found= True
+    break
+if found:
+  print("Name found")
+else:
+  print("Name not found")
